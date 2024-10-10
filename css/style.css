@@ -899,5 +899,47 @@ header nav .showClose {
 .logo .list ul :hover {
   opacity: 0.8;
 }
+.container-container {
+  background:url(/images/background.jpg) center/cover;
+  display: flex;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+}
+.contact-container {
+  background: none;
+  width: fit-content;
+  padding: 40px 140px;
+  border: transparent;
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  box-shadow: 5px 4px 20px;
+}
+#fname , #yemail, #phone , #message{
+  border: 1px solid blue;
+  padding: 16px;
+  padding-right: 60px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
 
+#message {
+  resize: none;
+}
+.container-container .contact-name {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 80px;
+  padding-top: 20px;
+}
+.container-container .submit-button {
+  padding-left: 75px;
+}
+#submit {
+  border-radius: 25px;
+}
+.contact-container label {
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
