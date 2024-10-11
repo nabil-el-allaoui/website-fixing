@@ -900,7 +900,7 @@ header nav .showClose {
   opacity: 0.8;
 }
 .container-container {
-  background: url(/images/background.jpg) center/cover;
+  background: url(/images/gallery/background.jpg) center/cover;
   display: flex;
   height: 700px;
   justify-content: center;
